@@ -53,6 +53,126 @@ const LiveVideos = () => {
                         </Col>
                     </Row>
                 </section>
+                <section id="pakistan" className="ChannelSection">
+                    <Row className="titleRow">
+                        <Col className="titleCol" xs={12} sm={12} md={12} lg={12} xl={12}>
+                            <h3 className="text-center">Pakistan</h3>
+                        </Col>
+                    </Row>
+                    <Row className="mainRow">
+                        <Col xs={12} sm={12} md={6} lg={4} xl={4}>
+                            <Card >
+                                <Card.Body>
+                                    <Card.Title className="text-center">ARY News</Card.Title>
+                                </Card.Body>
+                                <ReactPlayer url='https://youtu.be/38IEolI8f-w' controls={true} muted={true} width="100%" />
+                            </Card>
+                        </Col>
+                        <Col xs={12} sm={12} md={6} lg={4} xl={4}>
+                            <Card >
+                                <Card.Body>
+                                    <Card.Title className="text-center">Geo News</Card.Title>
+                                </Card.Body>
+                                <ReactPlayer url='https://youtu.be/HrrpR7zjFpU' controls={true} muted={true} width="100%" />
+                            </Card>
+                        </Col>
+                        <Col xs={12} sm={12} md={6} lg={4} xl={4}>
+                            <Card >
+                                <Card.Body>
+                                    <Card.Title className="text-center">Samaa News</Card.Title>
+                                </Card.Body>
+                                <ReactPlayer url='https://youtu.be/XbBUCQPLL_Y' controls={true} muted={true} width="100%" />
+                            </Card>
+                        </Col>
+                    </Row>
+                </section>
+                <section id="india" className="ChannelSection">
+                    <Row className="titleRow">
+                        <Col className="titleCol" xs={12} sm={12} md={12} lg={12} xl={12}>
+                            <h3 className="text-center">India</h3>
+                        </Col>
+                    </Row>
+                    <Row className="mainRow">
+                        <Col xs={12} sm={12} md={6} lg={4} xl={4}>
+                            <Card >
+                                <Card.Body>
+                                    <Card.Title className="text-center">India Today</Card.Title>
+                                </Card.Body>
+                                <ReactPlayer url='https://youtu.be/08_n1WmIFqg' controls={true} muted={true} width="100%" />
+                            </Card>
+                        </Col>
+                        <Col xs={12} sm={12} md={6} lg={4} xl={4}>
+                            <Card >
+                                <Card.Body>
+                                    <Card.Title className="text-center">NDTV 24x7</Card.Title>
+                                </Card.Body>
+                                <ReactPlayer url='https://youtu.be/1Y7eA2aWOKk' controls={true} muted={true} width="100%" />
+                            </Card>
+                        </Col>
+                        <Col xs={12} sm={12} md={6} lg={4} xl={4}>
+                            <Card >
+                                <Card.Body>
+                                    <Card.Title className="text-center">News 18</Card.Title>
+                                </Card.Body>
+                                <ReactPlayer url='https://youtu.be/IpXp83q_2zs' controls={true} muted={true} width="100%" />
+                            </Card>
+                        </Col>
+                    </Row>
+                </section>
+                <section id="germany" className="ChannelSection">
+                    <Row className="titleRow">
+                        <Col className="titleCol" xs={12} sm={12} md={12} lg={12} xl={12}>
+                            <h3 className="text-center">Germany</h3>
+                        </Col>
+                    </Row>
+                    <Row className="mainRow">
+                        <Col xs={12} sm={12} md={12} lg={12} xl={12}>
+                            <Card >
+                                <Card.Body>
+                                    <Card.Title className="text-center">DW English</Card.Title>
+
+                                </Card.Body>
+                                <ReactPlayer url='https://youtu.be/V9KZGs1MtP4' controls={true} muted={true} width="100%" />
+                            </Card>
+                        </Col>
+                    </Row>
+                </section>
+                <section id="france" className="ChannelSection">
+                    <Row className="titleRow">
+                        <Col className="titleCol" xs={12} sm={12} md={12} lg={12} xl={12}>
+                            <h3 className="text-center">France</h3>
+                        </Col>
+                    </Row>
+                    <Row className="mainRow">
+                        <Col xs={12} sm={12} md={12} lg={12} xl={12}>
+                            <Card >
+                                <Card.Body>
+                                    <Card.Title className="text-center">France 24</Card.Title>
+
+                                </Card.Body>
+                                <ReactPlayer url='https://youtu.be/h3MuIUNCCzI' controls={true} muted={true} width="100%" />
+                            </Card>
+                        </Col>
+                    </Row>
+                </section>
+                <section id="japan" className="ChannelSection">
+                    <Row className="titleRow">
+                        <Col className="titleCol" xs={12} sm={12} md={12} lg={12} xl={12}>
+                            <h3 className="text-center">Japan</h3>
+                        </Col>
+                    </Row>
+                    <Row className="mainRow">
+                        <Col xs={12} sm={12} md={12} lg={12} xl={12}>
+                            <Card >
+                                <Card.Body>
+                                    <Card.Title className="text-center">Ann News</Card.Title>
+
+                                </Card.Body>
+                                <ReactPlayer url='https://youtu.be/coYw-eVU0Ks' controls={true} muted={true} width="100%" />
+                            </Card>
+                        </Col>
+                    </Row>
+                </section>
                 <section id="saudiArabia" className="ChannelSection">
                     <Row className="titleRow">
                         <Col className="titleCol" xs={12} sm={12} md={12} lg={12} xl={12}>

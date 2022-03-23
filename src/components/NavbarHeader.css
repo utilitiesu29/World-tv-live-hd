@@ -5,9 +5,18 @@
     font-size: 3.5rem;
     color: white !important;
 }
+.LogoName>img{
+    clip-path: circle(50% at 50% 50%);
+    margin: 0 1rem;
+}
 .liveDot{
     font-family: 'DM Serif Display', serif;
     font-weight: 600;
     font-size: 3.5rem;
     color: red !important;
+}
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
