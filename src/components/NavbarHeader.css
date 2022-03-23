@@ -20,3 +20,36 @@
     justify-content: center;
     align-items: center;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {.LogoName{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: white !important;
+}
+.LogoName>img{
+   display:none !important;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {.LogoName{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: white !important;
+}}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {.LogoName{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: white !important;
+}}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
