@@ -47,3 +47,50 @@ h3:before{
     left: 25%;
     border-bottom: 1px solid red;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {.LogoName{
+    .ChannelSection{
+        margin: 3rem 0rem;
+        width: 100%;
+        padding: 0 0rem ;
+    }
+    
+    h3{
+        font-size: 1.5rem;
+       
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .ChannelSection{
+        margin: 3rem 0rem;
+        width: 100%;
+        padding: 0 0rem ;
+    }
+    
+    h3{
+        font-size: 1.5rem;
+       
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .ChannelSection{
+        margin: 3rem 0rem;
+        width: 100%;
+        padding: 0 0rem ;
+    }
+    
+    h3{
+        font-size: 1.5rem;
+       
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
