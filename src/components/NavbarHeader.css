@@ -41,12 +41,14 @@
 }}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {.LogoName{
+@media only screen and (min-width: 768px) {
+    .LogoName{
     font-family: 'DM Serif Display', serif;
     font-weight: 600;
     font-size: 2rem;
     color: white !important;
-}}
+}
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {}
