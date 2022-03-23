@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+.LogoName{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+    color: white !important;
+}
+.liveDot{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+    color: red !important;
+}

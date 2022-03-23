@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Della+Respira&family=Fredoka:wght@600&family=Nunito+Sans:wght@200&display=swap');
+.ChannelSection{
+    margin: 5rem 0rem;
+    width: 100%;
+    padding: 0 4rem ;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+/*.ChannelSection:nth-child(odd){
+    background-color: #AFBEC3;
+    
+}
+.ChannelSection:nth-child(even){
+    background-color: #AFBEC3;
+}*/
+.titleRow{
+    padding: 2rem 0 ;
+    margin-top: 3rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.titleCol{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.mainRow{
+    padding: 2rem 0 ;
+    margin: 3rem 0;
+    padding-bottom: 5rem;
+}
+h3{
+    font-size: 2.1rem;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 500;
+    color: #272727;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+h3:before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 1px solid red;
+}
