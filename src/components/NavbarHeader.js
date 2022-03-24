@@ -11,7 +11,7 @@ const NavbarHeader = () => {
         <div>
             <Navbar bg="dark" variant="dark" expand="lg">
                 <Container>
-                    <Navbar.Brand href="#" className="LogoName">
+                    <Navbar.Brand href="/" className="LogoName">
                         <img
                             alt=""
                             src={logo}
@@ -22,10 +22,10 @@ const NavbarHeader = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                         <Nav>
-                            <Nav.Link href="/world-Tv-Live/">Home</Nav.Link>
-                            <Nav.Link href="/world-Tv-Live/About">About</Nav.Link>
-                            <Nav.Link href="/world-Tv-Live/Contact">Contact</Nav.Link>
-                            <Nav.Link href="/world-Tv-Live/Policies">Privacy policy</Nav.Link>
+                            <Nav.Link href="/">Home</Nav.Link>
+                            <Nav.Link href="/">About</Nav.Link>
+                            <Nav.Link href="/">Contact</Nav.Link>
+                            <Nav.Link href="/">Privacy policy</Nav.Link>
                             <NavDropdown title="Channels" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="#international">International</NavDropdown.Item>
                                 <NavDropdown.Item href="#pakistan">Pakistan</NavDropdown.Item>
