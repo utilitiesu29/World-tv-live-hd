@@ -22,10 +22,10 @@ const NavbarHeader = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                         <Nav>
-                            <Nav.Link href="/">Home</Nav.Link>
-                            <Nav.Link href="/About">About</Nav.Link>
-                            <Nav.Link href="/Contact">Contact</Nav.Link>
-                            <Nav.Link href="/Policies">Privacy policy</Nav.Link>
+                            <Nav.Link href="/world-Tv-Live/">Home</Nav.Link>
+                            <Nav.Link href="/world-Tv-Live/About">About</Nav.Link>
+                            <Nav.Link href="/world-Tv-Live/Contact">Contact</Nav.Link>
+                            <Nav.Link href="/world-Tv-Live/Policies">Privacy policy</Nav.Link>
                             <NavDropdown title="Channels" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="#international">International</NavDropdown.Item>
                                 <NavDropdown.Item href="#pakistan">Pakistan</NavDropdown.Item>
