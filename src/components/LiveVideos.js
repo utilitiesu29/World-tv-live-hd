@@ -12,47 +12,6 @@ const LiveVideos = () => {
     return (
         <div>
             <Container>
-                <section id="international" className="ChannelSection">
-                    <Row className="titleRow">
-                        <Col className="titleCol" xs={12} sm={12} md={12} lg={12} xl={12}>
-                            <h3 className="text-center">International</h3>
-                        </Col>
-                    </Row>
-                    <Row className="mainRow">
-                        <Col xs={12} sm={12} md={6} lg={3} xl={3}>
-                            <Card >
-                                <Card.Body>
-                                    <Card.Title className="text-center">Euro News</Card.Title>
-                                </Card.Body>
-                                <ReactPlayer url='https://youtu.be/sPgqEHsONK8' controls={true} muted={true} width="100%" />
-                            </Card>
-                        </Col>
-                        <Col xs={12} sm={12} md={6} lg={3} xl={3}>
-                            <Card >
-                                <Card.Body>
-                                    <Card.Title className="text-center">Aljazeera English</Card.Title>
-                                </Card.Body>
-                                <ReactPlayer url='https://youtu.be/-upyPouRrB8' controls={true} muted={true} width="100%" />
-                            </Card>
-                        </Col>
-                        <Col xs={12} sm={12} md={6} lg={3} xl={3}>
-                            <Card >
-                                <Card.Body>
-                                    <Card.Title className="text-center">Africa News</Card.Title>
-                                </Card.Body>
-                                <ReactPlayer url='https://youtu.be/NQjabLGdP5g' controls={true} muted={true} width="100%" />
-                            </Card>
-                        </Col>
-                        <Col xs={12} sm={12} md={6} lg={3} xl={3}>
-                            <Card>
-                                <Card.Body>
-                                    <Card.Title className="text-center">ABC News</Card.Title>
-                                </Card.Body>
-                                <ReactPlayer url='https://youtu.be/w_Ma8oQLmSM' controls={true} muted={true} width="100%" />
-                            </Card>
-                        </Col>
-                    </Row>
-                </section>
                 <section id="pakistan" className="ChannelSection">
                     <Row className="titleRow">
                         <Col className="titleCol" xs={12} sm={12} md={12} lg={12} xl={12}>
@@ -115,6 +74,47 @@ const LiveVideos = () => {
                                     <Card.Title className="text-center">News 18</Card.Title>
                                 </Card.Body>
                                 <ReactPlayer url='https://youtu.be/IpXp83q_2zs' controls={true} muted={true} width="100%" />
+                            </Card>
+                        </Col>
+                    </Row>
+                </section>
+                <section id="international" className="ChannelSection">
+                    <Row className="titleRow">
+                        <Col className="titleCol" xs={12} sm={12} md={12} lg={12} xl={12}>
+                            <h3 className="text-center">International</h3>
+                        </Col>
+                    </Row>
+                    <Row className="mainRow">
+                        <Col xs={12} sm={12} md={6} lg={3} xl={3}>
+                            <Card >
+                                <Card.Body>
+                                    <Card.Title className="text-center">Euro News</Card.Title>
+                                </Card.Body>
+                                <ReactPlayer url='https://youtu.be/sPgqEHsONK8' controls={true} muted={true} width="100%" />
+                            </Card>
+                        </Col>
+                        <Col xs={12} sm={12} md={6} lg={3} xl={3}>
+                            <Card >
+                                <Card.Body>
+                                    <Card.Title className="text-center">Aljazeera English</Card.Title>
+                                </Card.Body>
+                                <ReactPlayer url='https://youtu.be/-upyPouRrB8' controls={true} muted={true} width="100%" />
+                            </Card>
+                        </Col>
+                        <Col xs={12} sm={12} md={6} lg={3} xl={3}>
+                            <Card >
+                                <Card.Body>
+                                    <Card.Title className="text-center">Africa News</Card.Title>
+                                </Card.Body>
+                                <ReactPlayer url='https://youtu.be/NQjabLGdP5g' controls={true} muted={true} width="100%" />
+                            </Card>
+                        </Col>
+                        <Col xs={12} sm={12} md={6} lg={3} xl={3}>
+                            <Card>
+                                <Card.Body>
+                                    <Card.Title className="text-center">ABC News</Card.Title>
+                                </Card.Body>
+                                <ReactPlayer url='https://youtu.be/w_Ma8oQLmSM' controls={true} muted={true} width="100%" />
                             </Card>
                         </Col>
                     </Row>
