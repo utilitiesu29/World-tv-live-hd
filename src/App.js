@@ -12,10 +12,10 @@ function App() {
       <NavbarHeader />
       <Routes>
         {/*<Route path="/Home" element={<Home />}></Route>*/}
-        <Route path="/world-Tv-Live/About" exact element={<About />}></Route>
-        <Route path="/world-Tv-Live/Contact" exact element={<Contact />}></Route>
-        <Route path="/world-Tv-Live/Policies" exact element={<Policies />}></Route>
-        <Route path="/world-Tv-Live/" exact element={<LiveVideos />}></Route>
+        <Route path="/World-tv-live-hd/About" exact element={<About />}></Route>
+        <Route path="/World-tv-live-hd/Contact" exact element={<Contact />}></Route>
+        <Route path="/World-tv-live-hd/Policies" exact element={<Policies />}></Route>
+        <Route path="/World-tv-live-hd/" exact element={<LiveVideos />}></Route>
       </Routes>
     </Router>
   );
