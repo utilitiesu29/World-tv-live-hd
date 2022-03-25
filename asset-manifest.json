@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/World-tv-live-hd/static/css/main.a869f44e.css",
+    "main.js": "/World-tv-live-hd/static/js/main.05e6e48c.js",
+    "static/js/787.29090731.chunk.js": "/World-tv-live-hd/static/js/787.29090731.chunk.js",
+    "static/media/world-tv-live2.png": "/World-tv-live-hd/static/media/world-tv-live2.00f7f78cdb26dd3045bc.png",
+    "index.html": "/World-tv-live-hd/index.html",
+    "main.a869f44e.css.map": "/World-tv-live-hd/static/css/main.a869f44e.css.map",
+    "main.05e6e48c.js.map": "/World-tv-live-hd/static/js/main.05e6e48c.js.map",
+    "787.29090731.chunk.js.map": "/World-tv-live-hd/static/js/787.29090731.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a869f44e.css",
+    "static/js/main.05e6e48c.js"
+  ]
+}
